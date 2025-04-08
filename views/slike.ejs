@@ -40,8 +40,7 @@
                 </figure>
             <% }); %>
         </section>
-    
-        <!-- Lightboxes using figure elements -->
+
         <% images.forEach((image, index) => { %>
             <figure id="lightbox-<%= index + 1 %>" class="lightbox">
                 <img src="<%= image.path %>" alt="<%= image.title || `Slika ${index + 1}` %>">
